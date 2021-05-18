@@ -1,13 +1,19 @@
 {
-    "name": "MyApp test",
-    "short_name": "MyApp",
+    "name": "MyApp SA",
+    "short_name": "MyAppSA",
     "display": "standalone",
     "background_color": "#fff",
-    "description": "A simply readable Hacker News app.",
+    "description": "Awesome application that will help you achieve your dreams.",
+    "orientation": "portrait",
     "start_url": "/display-standalone/index.html",
     "icons": [{
-      "src": "s/cat_icon.png",
+      "src": "s/cat_192.png",
       "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "s/cat_512.png",
+      "sizes": "512x512",
       "type": "image/png"
     }]
   }
