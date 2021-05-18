@@ -6,7 +6,7 @@
     "description": "A simply readable Hacker News app.",
     "start_url": "/files-format-test",
     "icons": [{
-      "src": "s/88c06841541b143ddf788f54d5b39d10.png",
+      "src": "s/cat_icon.png",
       "sizes": "192x192",
       "type": "image/png"
     }]
