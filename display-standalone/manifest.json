@@ -1,10 +1,10 @@
 {
     "name": "MyApp test",
     "short_name": "MyApp",
-    "display": "browser",
+    "display": "standalone",
     "background_color": "#fff",
     "description": "A simply readable Hacker News app.",
-    "start_url": "/index.html",
+    "start_url": "display-standalone/index.html",
     "icons": [{
       "src": "s/cat_icon.png",
       "sizes": "192x192",
