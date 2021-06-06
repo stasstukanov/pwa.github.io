@@ -6,13 +6,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #eae8e4;
   background: linear-gradient(50deg, #eae8e4, #fff);
   text-align: center;
   min-height: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 144px;
 }
 
 .test-test {
@@ -30,11 +32,10 @@ h1 {
   0% {
     background-position: left
   }
-
   50% {
     background-position: right
   }
-
+  
   100% {
     background-position: left
   }
