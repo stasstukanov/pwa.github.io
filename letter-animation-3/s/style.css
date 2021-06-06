@@ -27,9 +27,9 @@ background: linear-gradient(290deg, #D65B3E -4.68%, rgba(255, 255, 255, 0) 62.94
 }
   
 @keyframes bg-color {
-0% {background-color: #5C609F;}
-25% {background-color: #00A0B0;}
-50% {background-color: #D65B3E;}
-75% {background-color: #00589B;}
-100% {background-color: #5C609F;}
-}
+  0% {background-color: #D65B3E;}
+  25% {background-color: #5C609F;}
+  50% {background-color: #00589B;} 
+  75% {background-color: #00A0B0;} 
+  100% {background-color: #D65B3E;} 
+  }
