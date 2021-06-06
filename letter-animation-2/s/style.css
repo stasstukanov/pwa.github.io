@@ -6,7 +6,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #eae8e4;
   background: linear-gradient(50deg, #eae8e4, #fff);
   text-align: center;
   min-height: 100%;
@@ -17,32 +16,38 @@ h1 {
   font-size: 144px;
 }
 
-.test-test {
-  background: 
-  linear-gradient(0deg, #D65B3E, rgba(255, 255, 255, 0) 100%),
-  linear-gradient(246.9deg, #00A0B0 15%, rgba(255, 255, 255, 0) 70%),
-linear-gradient(180deg, #5C609F 0%, rgba(255, 255, 255, 0) 60%);
+.test-test { 
+background: linear-gradient(317.16deg, #D65B3E 17.83%, rgba(255, 255, 255, 0) 48.95%),
+linear-gradient(48.09deg, rgba(0, 88, 155, 0.9) 20.33%, rgba(255, 255, 255, 0) 40.65%),
+linear-gradient(232.01deg, #00A0B0 35.89%, rgba(255, 255, 255, 0) 49.84%),
+linear-gradient(123.59deg, rgba(92, 96, 159, 0.9) 35.38%, rgba(255, 255, 255, 0) 77.99%);
+
+
   background-size: 400%;
   text-align: left;
   background-clip: text;
   text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation: bg-color 4s linear infinite; /* Chrome, Safari 5 */
-  -moz-animation: bg-color 4s linear infinite; /* Firefox 5-15 */
-  -o-animation: bg-color 4s linear infinite; /* Opera 12+ */
-  animation: bg-color 4s linear infinite; /* Chrome, Firefox 16+, IE 10+, Safari 5*/
+  -webkit-animation: bg-color 10s linear infinite; /* Chrome, Safari 5 */
+  -moz-animation: bg-color 10s linear infinite; /* Firefox 5-15 */
+  -o-animation: bg-color 10s linear infinite; /* Opera 12+ */
+  animation: bg-color 10s linear infinite; /* Chrome, Firefox 16+, IE 10+, Safari 5*/
 }
   
 @keyframes bg-color {
-  0% {
-    background-position: left
-  }
-  50% {
-    background-position: right
-  }
-  
-  100% {
-    background-position: left
-  }
+ 0% { background-position: left top}
+ 30% { background-position: right top}
+ 60% { background-position: right bottom}
+ 80% { background-position: left bottom}
+ 100% { background-position: left top}
 }
+
+/* ver 1
+background:
+  linear-gradient(20deg, #D65B3E, rgba(255, 255, 255, 0) 50%),
+  linear-gradient(246.9deg, #00A0B0 15%, rgba(255, 255, 255, 0) 70%),
+  linear-gradient(180deg, #5C609F 0%, rgba(255, 255, 255, 0) 60%),
+  linear-gradient(30deg, #D65B3E, rgba(255, 255, 255, 0) 100%),
+  linear-gradient(120deg, #5C609F 0%, rgba(255, 255, 255, 0) 60%);
+*/
