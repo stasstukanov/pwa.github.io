@@ -18,10 +18,9 @@ h1 {
 }
 
 .test-test {
-  background: 
-  linear-gradient(246.9deg, #00A0B0 15%, rgba(255, 255, 255, 0) 62.92%),
-  linear-gradient(180deg, #5C609F 0%, rgba(255, 255, 255, 0) 100%),
-  linear-gradient(0deg, #D65B3E, #D65B3E);
+  background: linear-gradient(246.9deg, #00A0B0 15%, rgba(255, 255, 255, 0) 70%),
+linear-gradient(180deg, #5C609F 0%, rgba(255, 255, 255, 0) 60%),
+linear-gradient(0deg, #D65B3E, rgba(255, 255, 255, 0) 100%);
   background-size: 400%;
   text-align: left;
   background-clip: text;
