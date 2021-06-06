@@ -1,3 +1,4 @@
+/*
 function myFunction() {
     var x = document.getElementById("demo");
     x.style.fontSize = "25px"; 
@@ -13,3 +14,4 @@ function myFunction() {
     console.log('Service worker has been registered for scope:'+ reg.scope);
   });
 }
+*/
