@@ -21,8 +21,6 @@ background: linear-gradient(317.16deg, #D65B3E 17.83%, rgba(255, 255, 255, 0) 48
 linear-gradient(48.09deg, rgba(0, 88, 155, 0.9) 20.33%, rgba(255, 255, 255, 0) 40.65%),
 linear-gradient(232.01deg, #00A0B0 35.89%, rgba(255, 255, 255, 0) 49.84%),
 linear-gradient(123.59deg, rgba(92, 96, 159, 0.9) 35.38%, rgba(255, 255, 255, 0) 77.99%);
-
-
   background-size: 400%;
   text-align: left;
   background-clip: text;
@@ -36,12 +34,11 @@ linear-gradient(123.59deg, rgba(92, 96, 159, 0.9) 35.38%, rgba(255, 255, 255, 0)
 }
   
 @keyframes bg-color {
- 0% { background-position: left top}
- 30% { background-position: right top}
- 60% { background-position: right bottom}
- 80% { background-position: left bottom}
- 100% { background-position: left top}
+ 0% {background-position: left}
+ 50% {background-position: right}
+ 100% {background-position: left}
 }
+
 
 /* ver 1
 background:
