@@ -1,0 +1,102 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eae8e4;
+  background: linear-gradient(50deg, #eae8e4, #fff);
+  text-align: center;
+  min-height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 144px;
+}
+
+.test-test {
+  background: 
+  linear-gradient(246.9deg, #00A0B0 15%, rgba(255, 255, 255, 0) 62.92%),
+  linear-gradient(180deg, #5C609F 0%, rgba(255, 255, 255, 0) 100%),
+  linear-gradient(0deg, #D65B3E, #D65B3E);
+  background-size: 400%;
+  text-align: left;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: bg-color 15s linear infinite;
+}
+
+@keyframes bg-color {
+  0% {
+    background-position: left
+  }
+  50% {
+    background-position: right
+  }
+  
+  100% {
+    background-position: left
+  }
+}
+
+
+/* @font-face {
+    font-family: "Abril Fatface";
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url(AkayaTelivigala-Regular.woff2) format("woff2");
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: "Abril Fatface";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  height: 50%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-image2 {
+  height: 200px; 
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img1 { background-image: url(img_forest.jpg); }
+.img2 { background-image: url(img_girl.jpg); }
+.img3 { background-image: url(img_lights.jpg); }
+.img4 { background-image: url(img_nature.jpg); }
+.img5 { background-image: url(img_snow.jpg); }
+.img6 { background-image: url(img_woods.jpg); }
+
+
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color 
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through 
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+*/
