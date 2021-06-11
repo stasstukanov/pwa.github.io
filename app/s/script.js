@@ -57,5 +57,4 @@ const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.n
 if (isIos() && !isInStandaloneMode()) {
   this.setState({ showInstallMessage: true });
 }
-
 /* End script for Install Popup on IOS */
