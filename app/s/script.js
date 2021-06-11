@@ -14,7 +14,7 @@ function myFunction() {
   });
 }
 
-
+/* Start script for Install Button */
 window.addEventListener('beforeinstallprompt', (event) => {
   console.log('👍', 'beforeinstallprompt', event);
   // Stash the event so it can be triggered later.
@@ -22,7 +22,6 @@ window.addEventListener('beforeinstallprompt', (event) => {
   // Remove the 'hidden' class from the install button container
   divInstall.classList.toggle('hidden', false);
 });
-
 
 butInstall.addEventListener('click', async () => {
   console.log('👍', 'butInstall-clicked');
@@ -42,7 +41,21 @@ butInstall.addEventListener('click', async () => {
   // Hide the install button.
   divInstall.classList.toggle('hidden', true);
 });
+/* End script for Install Button */
 
 
+/* Start script for Install Popup on IOS */
+// Detects if device is on iOS 
+const isIos = () => {
+  const userAgent = window.navigator.userAgent.toLowerCase();
+  return /iphone|ipad|ipod/.test( userAgent );
+}
+// Detects if device is in standalone mode
+const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.navigator.standalone);
 
+// Checks if should display install popup notification:
+if (isIos() && !isInStandaloneMode()) {
+  this.setState({ showInstallMessage: true });
+}
 
+/* End script for Install Popup on IOS */
