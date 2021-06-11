@@ -13,3 +13,17 @@ function myFunction() {
     console.log('Service worker has been registered for scope:'+ reg.scope);
   });
 }
+
+let installButton = document.createElement('button');
+
+let prompt;
+window.addEventListener('beforeinstallprompt', function(e){
+  // Prevent the mini-infobar from appearing on mobile
+  e.preventDefault();
+  // Stash the event so it can be triggered later.
+  prompt = e;
+});
+
+installButton.addEventListener('click', function(){
+   prompt.prompt();
+})
