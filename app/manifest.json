@@ -1,11 +1,11 @@
 {
-    "name": "MyApp FS",
-    "short_name": "MyAppFS",
-    "display": "fullscreen",
-    "background_color": "#fff",
+    "name": "Test App",
+    "short_name": "TestApp",
+    "display": "standalone",
+    "background_color": "#e38120",
     "description": "Awesome application that will help you achieve your dreams.",
     "orientation": "portrait",
-    "start_url": "/display-fullscreen/index.html",
+    "start_url": "/app/index.html",
     "icons": [{
       "src": "s/cat_192.png",
       "sizes": "192x192",
