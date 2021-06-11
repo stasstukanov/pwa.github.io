@@ -62,4 +62,3 @@ if (isIos() && !isInStandaloneMode()) {
 /* End script for Install Popup on IOS */
 
 
-https://gist.github.com/mlabieniec/18e0b785a22fb5364cbc0b3b3135d9f5 
