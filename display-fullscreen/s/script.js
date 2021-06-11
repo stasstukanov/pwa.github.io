@@ -43,3 +43,6 @@ butInstall.addEventListener('click', async () => {
   divInstall.classList.toggle('hidden', true);
 });
 
+
+
+
