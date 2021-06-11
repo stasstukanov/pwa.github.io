@@ -14,6 +14,7 @@ function myFunction() {
   });
 }
 
+/*
 window.addEventListener('beforeinstallprompt', (event) => {
   console.log('👍', 'beforeinstallprompt', event);
   // Stash the event so it can be triggered later.
@@ -21,6 +22,7 @@ window.addEventListener('beforeinstallprompt', (event) => {
   // Remove the 'hidden' class from the install button container
   divInstall.classList.toggle('hidden', false);
 });
+*/
 
 butInstall.addEventListener('click', async () => {
   console.log('👍', 'butInstall-clicked');
