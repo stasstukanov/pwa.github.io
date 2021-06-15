@@ -5,7 +5,7 @@
     "background_color": "#e38120",
     "description": "Awesome application that will help you achieve your dreams.",
     "orientation": "portrait",
-    "start_url": "/app/index.html",
+    "start_url": "/app/index.html?utm_source=34",
     "icons": [{
       "src": "s/cat_192.png",
       "sizes": "192x192",
