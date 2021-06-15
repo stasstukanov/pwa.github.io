@@ -5,7 +5,7 @@
     "background_color": "#e38120",
     "description": "Awesome application that will help you achieve your dreams.",
     "orientation": "portrait",
-    "start_url": "/app/index.html?tds_host=find-your-slut.com&tds_ac_id=s4462stu&tds_campaign=b6371stu&tds_cid=b36dbf3b25a803b3dd1cffc48e7e3eeaba97d135&utm_source=test_utm_source&utm_term=test_utm_term&utm_content=test_utm_content&utm_campaign=test_utm_campaign&s1=test_s1&data2=test_data2&pwa_ao=15&pwa_soid=selector1&pwa_tm=60",
+    "start_url": "/pwa/index.html?tds_host=find-your-slut.com&tds_ac_id=s4462stu&tds_campaign=b6371stu&tds_cid=b36dbf3b25a803b3dd1cffc48e7e3eeaba97d135&utm_source=test_utm_source&utm_term=test_utm_term&utm_content=test_utm_content&utm_campaign=test_utm_campaign&s1=test_s1&data2=test_data2&pwa_ao=15&pwa_soid=selector1&pwa_tm=60",
     "icons": [{
       "src": "s/cat_192.png",
       "sizes": "192x192",
