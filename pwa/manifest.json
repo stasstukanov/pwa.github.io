@@ -1,0 +1,27 @@
+{
+    "name": "Test App",
+    "short_name": "TestApp",
+    "display": "standalone",
+    "background_color": "#e38120",
+    "description": "Awesome application that will help you achieve your dreams.",
+    "orientation": "portrait",
+    "start_url": "/app/index.html",
+    "icons": [{
+      "src": "s/cat_192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "s/cat_512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "s/cat_maskable.png",
+      "sizes": "930x930",
+      "type": "image/png",
+      "purpose": "maskable"
+    }]
+  }
