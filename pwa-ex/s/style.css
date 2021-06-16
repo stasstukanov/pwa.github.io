@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(50deg, #eae8e4, #fff);
+  text-align: center;
+  min-height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 144px;
+}
+
+.test-test { 
+background: linear-gradient(290deg, #D65B3E -4.68%, rgba(255, 255, 255, 0) 62.94%, #D65B3E 124.39%);
+  text-align: left;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: bg-color 10s infinite; /* Chrome, Firefox 16+, IE 10+, Safari 5*/
+}
+  
+@keyframes bg-color {
+  0% {background-color: #D65B3E;}
+  25% {background-color: #5C609F;}
+  50% {background-color: #00589B;} 
+  75% {background-color: #00A0B0;} 
+  100% {background-color: #D65B3E;} 
+  }
