@@ -165,7 +165,7 @@ img {
     margin-right: 5px;
     width: 15px;
     height: 15px;
-    background: url(./img/icon-tick.svg) no-repeat center / contain;
+    background: url(resource/icon-tick.svg) no-repeat center / contain;
 }
 
 .offers {
@@ -268,7 +268,7 @@ img {
     content: "";
     width: 20px;
     height: 20px;
-    background: url(./img/icon-top.svg) no-repeat center / contain;
+    background: url(resource/icon-top.svg) no-repeat center / contain;
     margin-right: 5px;
 }
 
@@ -308,7 +308,7 @@ img {
     content: "";
     width: 20px;
     height: 20px;
-    background: url(./img/icon-like.svg) no-repeat center / contain;
+    background: url(resource/icon-like.svg) no-repeat center / contain;
     margin-right: 5px;
 }
 
@@ -348,7 +348,7 @@ img {
     content: "";
     width: 0;
     height: 20px;
-    background: url(./img/right-arrow.svg) no-repeat center / contain;
+    background: url(resource/right-arrow.svg) no-repeat center / contain;
     margin-left: 5px;
     transform: scale(0);
     transition: var(--transition);
@@ -369,7 +369,7 @@ img {
     content: "";
     width: 20px;
     height: 20px;
-    background: url(./img/icon-fire.svg) no-repeat center / contain;
+    background: url(resource/icon-fire.svg) no-repeat center / contain;
     margin-right: 5px;
 }
 
@@ -435,15 +435,15 @@ img {
 }
 
 .features-item-1::before {
-    background-image: url(./img/browse-icon.svg);
+    background-image: url(resource/browse-icon.svg);
 }
 
 .features-item-2::before {
-    background-image: url(./img/date-icon.svg);
+    background-image: url(resource/date-icon.svg);
 }
 
 .features-item-3::before {
-    background-image: url(./img/fall-love-icon.svg);
+    background-image: url(resource/fall-love-icon.svg);
 }
 
 @media (min-width: 700px) {
@@ -455,7 +455,7 @@ img {
         min-height: 215px;
         height: 330px;
         padding: 30px 0 80px;
-        background: #878752 url(./img/top-10.jpg) no-repeat 75% 50% / cover;
+        background: #878752 url(resource/top-10.jpg) no-repeat 75% 50% / cover;
     }
 
     .top-section-content {
