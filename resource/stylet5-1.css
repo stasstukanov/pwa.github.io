@@ -514,13 +514,14 @@ img {
     }
 }
 
+/*
 @media (min-width: 1170px) {
   /*
       .offers {
         grid-template-columns: 1fr 300px;
         gap: 30px;
     }
-   */
+   
     .sidebar {
       display: block;
       align-self: start;
@@ -546,3 +547,4 @@ img {
     }
 
 }
+*/
