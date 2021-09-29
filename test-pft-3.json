@@ -1,0 +1,32 @@
+{
+    "jsonrpc": "2.0",
+    "id": "1",
+    "method": "createDocument",
+    "params": {
+        "name": "test-api-pft-6",
+        "type": "pft",
+        "parentId": "95eb3d98256bbebd98e88092f2766cec",
+        "description": "test page",
+        "languages": ["en"],
+        "aliases": ["/test-api-pft-6"],
+        "tags": ["test-api-pft"],
+        "contentType":"text/html",
+        "css": "test-api-pft",
+        "js": "test-api-pft"
+    }
+}
+
+
+-----
+
+то что я отправил в поле
+
+{"name":"test-api-pft-4","type":"pft","description":"test","contentType":"text/html","languages":["en"],"aliases":["/test-api-pft-4"],"tags":["testtag"],"parentId":"95eb3d98256bbebd98e88092f2766cec"}
+
+
+то что ушло 
+{"jsonrpc":"2.0","id":"1","method":"createDocument","params":{"name":"test-api-pft-4","type":"pft","description":"test","contentType":"text/html","languages":["en"],"aliases":["/test-api-pft-4"],"tags":["testtag"],"parentId":"95eb3d98256bbebd98e88092f2766cec"}}
+
+
+
+    "documentModifiers": {"anchor": "title","name": "title","type": "input","content": "test-api-pft","description": "Title page"}

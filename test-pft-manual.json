@@ -1,0 +1,407 @@
+{
+    "name": "test-pft-manual",
+    "type": "pft",
+    "tags": [
+        "testtag"
+    ],
+    "contentType": "text/html",
+    "aliases": [
+        "/test-pft-manual"
+    ],
+    "description": "",
+    "languages": [
+        "en"
+    ],
+    "documentModifiers": [
+        {
+            "anchor": "title",
+            "name": "title",
+            "type": "input",
+            "content": "test",
+            "description": "Title page"
+        },
+        {
+            "anchor": "description",
+            "name": "description",
+            "type": "input",
+            "content": "test",
+            "description": "Description page"
+        },
+        {
+            "anchor": "meta_title",
+            "name": "meta_title",
+            "type": "input",
+            "content": "test",
+            "description": "Meta title"
+        },
+        {
+            "anchor": "anchor",
+            "name": "anchor",
+            "type": "input",
+            "content": "test",
+            "description": "Anchor page"
+        },
+        {
+            "anchor": "header",
+            "name": "header",
+            "type": "input",
+            "content": "test",
+            "description": "Header page"
+        },
+        {
+            "anchor": "first_content",
+            "name": "first_content",
+            "type": "html",
+            "content": "test",
+            "description": "First content"
+        },
+        {
+            "anchor": "second_content",
+            "name": "second_content",
+            "type": "html",
+            "content": "test",
+            "description": "Second content"
+        },
+        {
+            "anchor": "third_content",
+            "name": "third_content",
+            "type": "html",
+            "content": "test",
+            "description": "Third content"
+        },
+        {
+            "anchor": "noindex",
+            "name": "noindex",
+            "type": "input",
+            "content": "test",
+            "description": "Noindex page"
+        },
+        {
+            "anchor": "age",
+            "name": "age",
+            "type": "textarea",
+            "content": "test",
+            "description": "age"
+        },
+        {
+            "anchor": "annual_income",
+            "name": "annual_income",
+            "type": "textarea",
+            "content": "test",
+            "description": "Annual income"
+        },
+        {
+            "anchor": "appearance",
+            "name": "appearance",
+            "type": "textarea",
+            "content": "test",
+            "description": "Appearance"
+        },
+        {
+            "anchor": "birthday",
+            "name": "birthday",
+            "type": "textarea",
+            "content": "test",
+            "description": "Birthday"
+        },
+        {
+            "anchor": "body_art",
+            "name": "body_art",
+            "type": "textarea",
+            "content": "test",
+            "description": "Body art"
+        },
+        {
+            "anchor": "body_style",
+            "name": "body_style",
+            "type": "textarea",
+            "content": "test",
+            "description": "Body style"
+        },
+        {
+            "anchor": "book",
+            "name": "book",
+            "type": "textarea",
+            "content": "test",
+            "description": "Favorite Book"
+        },
+        {
+            "anchor": "city_links",
+            "name": "city_links",
+            "type": "html",
+            "content": "test",
+            "description": "City"
+        },
+        {
+            "anchor": "color",
+            "name": "color",
+            "type": "textarea",
+            "content": "test",
+            "description": "Favorite Color"
+        },
+        {
+            "anchor": "dress_style",
+            "name": "dress_style",
+            "type": "textarea",
+            "content": "test",
+            "description": "Dress Style"
+        },
+        {
+            "anchor": "drink",
+            "name": "drink",
+            "type": "textarea",
+            "content": "test",
+            "description": "Drink"
+        },
+        {
+            "anchor": "education",
+            "name": "education",
+            "type": "textarea",
+            "content": "test",
+            "description": "Education"
+        },
+        {
+            "anchor": "educational_degree",
+            "name": "educational_degree",
+            "type": "textarea",
+            "content": "test",
+            "description": "Educational Degree"
+        },
+        {
+            "anchor": "employment_status",
+            "name": "employment_status",
+            "type": "textarea",
+            "content": "test",
+            "description": "Employment status"
+        },
+        {
+            "anchor": "english_ability",
+            "name": "english_ability",
+            "type": "textarea",
+            "content": "test",
+            "description": "English ability"
+        },
+        {
+            "anchor": "eye_color",
+            "name": "eye_color",
+            "type": "textarea",
+            "content": "test",
+            "description": "Eye color"
+        },
+        {
+            "anchor": "food",
+            "name": "food",
+            "type": "textarea",
+            "content": "test",
+            "description": "Favorite Food:"
+        },
+        {
+            "anchor": "gender",
+            "name": "gender",
+            "type": "textarea",
+            "content": "test",
+            "description": "gender"
+        },
+        {
+            "anchor": "hair_color",
+            "name": "hair_color",
+            "type": "textarea",
+            "content": "test",
+            "description": "Hair color"
+        },
+        {
+            "anchor": "have_children",
+            "name": "have_children",
+            "type": "textarea",
+            "content": "test",
+            "description": "Have children"
+        },
+        {
+            "anchor": "height",
+            "name": "height",
+            "type": "textarea",
+            "content": "test",
+            "description": "Height"
+        },
+        {
+            "anchor": "hobbies",
+            "name": "hobbies",
+            "type": "textarea",
+            "content": "test",
+            "description": "Hobbies & Interests:"
+        },
+        {
+            "anchor": "language",
+            "name": "language",
+            "type": "textarea",
+            "content": "test",
+            "description": "Languages spoken"
+        },
+        {
+            "anchor": "lives_in",
+            "name": "lives_in",
+            "type": "textarea",
+            "content": "test",
+            "description": "Lives in"
+        },
+        {
+            "anchor": "living_situation",
+            "name": "living_situation",
+            "type": "textarea",
+            "content": "test",
+            "description": "Living situation"
+        },
+        {
+            "anchor": "marital_status",
+            "name": "marital_status",
+            "type": "textarea",
+            "content": "test",
+            "description": "Marital Status"
+        },
+        {
+            "anchor": "movie",
+            "name": "movie",
+            "type": "textarea",
+            "content": "test",
+            "description": "Favorite Movie"
+        },
+        {
+            "anchor": "movie_star",
+            "name": "movie_star",
+            "type": "textarea",
+            "content": "test",
+            "description": "Favorite Movie Star"
+        },
+        {
+            "anchor": "music",
+            "name": "music",
+            "type": "textarea",
+            "content": "test",
+            "description": "Favorite Music"
+        },
+        {
+            "anchor": "name",
+            "name": "name",
+            "type": "textarea",
+            "content": "test",
+            "description": "name"
+        },
+        {
+            "anchor": "name_child",
+            "name": "name_child",
+            "type": "textarea",
+            "content": "test",
+            "description": "Name of the child"
+        },
+        {
+            "anchor": "nickname",
+            "name": "nickname",
+            "type": "textarea",
+            "content": "test",
+            "description": "nickname"
+        },
+        {
+            "anchor": "occupation",
+            "name": "occupation",
+            "type": "textarea",
+            "content": "test",
+            "description": "Occupation"
+        },
+        {
+            "anchor": "orientation",
+            "name": "orientation",
+            "type": "textarea",
+            "content": "test",
+            "description": "Sexual orientation"
+        },
+        {
+            "anchor": "pets",
+            "name": "pets",
+            "type": "textarea",
+            "content": "test",
+            "description": "Have pets"
+        },
+        {
+            "anchor": "profile_description",
+            "name": "profile_description",
+            "type": "textarea",
+            "content": "test",
+            "description": "Description about prolife"
+        },
+        {
+            "anchor": "singer",
+            "name": "singer",
+            "type": "textarea",
+            "content": "test",
+            "description": "Favorite Singer"
+        },
+        {
+            "anchor": "smoke",
+            "name": "smoke",
+            "type": "textarea",
+            "content": "test",
+            "description": "Smoke"
+        },
+        {
+            "anchor": "song",
+            "name": "song",
+            "type": "textarea",
+            "content": "test",
+            "description": "Favorite Song"
+        },
+        {
+            "anchor": "sports",
+            "name": "sports",
+            "type": "textarea",
+            "content": "test",
+            "description": "Favorite Sports"
+        },
+        {
+            "anchor": "star_sign",
+            "name": "star_sign",
+            "type": "textarea",
+            "content": "test",
+            "description": "Star sign"
+        },
+        {
+            "anchor": "state_full",
+            "name": "state_full",
+            "type": "textarea",
+            "content": "test",
+            "description": "State Full"
+        },
+        {
+            "anchor": "street",
+            "name": "street",
+            "type": "textarea",
+            "content": "test",
+            "description": "Street"
+        },
+        {
+            "anchor": "travelled",
+            "name": "travelled",
+            "type": "textarea",
+            "content": "test",
+            "description": "Travelled"
+        },
+        {
+            "anchor": "university",
+            "name": "university",
+            "type": "textarea",
+            "content": "test",
+            "description": "University"
+        },
+        {
+            "anchor": "weight",
+            "name": "weight",
+            "type": "textarea",
+            "content": "test",
+            "description": "Weight:"
+        }
+    ],
+    "content": "",
+    "css": "test",
+    "js": "test",
+    "parentId": "95eb3d98256bbebd98e88092f2766cec",
+    "resources": []
+}
