@@ -166,35 +166,35 @@ a {
 }
 [data-step="1"] .user-photo,
 [data-step="1"] .user-photo .photo-main {
-  background-image: url("images/nuser-photo-1.jpg");
+  background-image: url("static/nuser-photo-1.jpg");
 }
 [data-step="2"] .user-photo,
 [data-step="2"] .user-photo .photo-main {
-  background-image: url("images/nuser-2-photo-1.jpg");
+  background-image: url("static/nuser-2-photo-1.jpg");
 }
 [data-step="3"] .user-photo,
 [data-step="3"] .user-photo .photo-main {
-  background-image: url("images/nuser-3-photo-1.jpg");
+  background-image: url("static/nuser-3-photo-1.jpg");
 }
 [data-step="4"] .user-photo,
 [data-step="4"] .user-photo .photo-main {
-  background-image: url("images/nuser-4-photo-1.jpg");
+  background-image: url("static/nuser-4-photo-1.jpg");
 }
 [data-step="5"] .user-photo,
 [data-step="5"] .user-photo .photo-main {
-  background-image: url("images/user-5-photo-1.jpg");
+  background-image: url("static/user-5-photo-1.jpg");
 }
 [data-step="6"] .user-photo,
 [data-step="6"] .user-photo .photo-main {
-  background-image: url("images/nuser-6-photo-1.jpg");
+  background-image: url("static/nuser-6-photo-1.jpg");
 }
 [data-step="7"] .user-photo,
 [data-step="7"] .user-photo .photo-main {
-  background-image: url("images/user-7-photo-1.jpg");
+  background-image: url("static/user-7-photo-1.jpg");
 }
 [data-step="8"] .user-photo,
 [data-step="8"] .user-photo .photo-main {
-  background-image: url("images/user-8-photo-1.jpg");
+  background-image: url("static/user-8-photo-1.jpg");
 }
 .user-content {
   padding: 1rem 1rem 1rem 0;
@@ -294,91 +294,91 @@ a {
 }
 [data-step="1"] .photo-item.item-1:after,
 [data-step="1"] .photo-item.item-1 .photo-main {
-  background-image: url("images/nuser-photo-2.jpg");
+  background-image: url("static/nuser-photo-2.jpg");
 }
 [data-step="1"] .photo-item.item-2:after,
 [data-step="1"] .photo-item.item-2 .photo-main {
-  background-image: url("images/nuser-photo-3.jpg");
+  background-image: url("static/nuser-photo-3.jpg");
 }
 [data-step="1"] .photo-item.item-3:after {
-  background-image: url("images/nuser-photo-4.jpg");
+  background-image: url("static/nuser-photo-4.jpg");
 }
 [data-step="2"] .photo-item.item-1:after,
 [data-step="2"] .photo-item.item-1 .photo-main {
-  background-image: url("images/nuser-2-photo-2.jpg");
+  background-image: url("static/nuser-2-photo-2.jpg");
 }
 [data-step="2"] .photo-item.item-2:after,
 [data-step="2"] .photo-item.item-2 .photo-main {
-  background-image: url("images/nuser-2-photo-3.jpg");
+  background-image: url("static/nuser-2-photo-3.jpg");
 }
 [data-step="2"] .photo-item.item-3:after {
-  background-image: url("images/nuser-2-photo-4.jpg");
+  background-image: url("static/nuser-2-photo-4.jpg");
 }
 [data-step="3"] .photo-item.item-1:after,
 [data-step="3"] .photo-item.item-1 .photo-main {
-  background-image: url("images/nuser-3-photo-2.jpg");
+  background-image: url("static/nuser-3-photo-2.jpg");
 }
 [data-step="3"] .photo-item.item-2:after,
 [data-step="3"] .photo-item.item-2 .photo-main {
-  background-image: url("images/nuser-3-photo-3.jpg");
+  background-image: url("static/nuser-3-photo-3.jpg");
 }
 [data-step="3"] .photo-item.item-3:after {
-  background-image: url("images/user-3-photo-4.jpg");
+  background-image: url("static/user-3-photo-4.jpg");
 }
 [data-step="4"] .photo-item.item-1:after,
 [data-step="4"] .photo-item.item-1 .photo-main {
-  background-image: url("images/nuser-4-photo-2.jpg");
+  background-image: url("static/nuser-4-photo-2.jpg");
 }
 [data-step="4"] .photo-item.item-2:after,
 [data-step="4"] .photo-item.item-2 .photo-main {
-  background-image: url("images/nuser-4-photo-3.jpg");
+  background-image: url("static/nuser-4-photo-3.jpg");
 }
 [data-step="4"] .photo-item.item-3:after {
-  background-image: url("images/nuser-4-photo-4.jpg");
+  background-image: url("static/nuser-4-photo-4.jpg");
 }
 [data-step="5"] .photo-item.item-1:after,
 [data-step="5"] .photo-item.item-1 .photo-main {
-  background-image: url("images/user-5-photo-2.jpg");
+  background-image: url("static/user-5-photo-2.jpg");
 }
 [data-step="5"] .photo-item.item-2:after,
 [data-step="5"] .photo-item.item-2 .photo-main {
-  background-image: url("images/user-5-photo-3.jpg");
+  background-image: url("static/user-5-photo-3.jpg");
 }
 [data-step="5"] .photo-item.item-3:after {
-  background-image: url("images/user-5-photo-4.jpg");
+  background-image: url("static/user-5-photo-4.jpg");
 }
 [data-step="6"] .photo-item.item-1:after,
 [data-step="6"] .photo-item.item-1 .photo-main {
-  background-image: url("images/nuser-6-photo-2.jpg");
+  background-image: url("static/nuser-6-photo-2.jpg");
 }
 [data-step="6"] .photo-item.item-2:after,
 [data-step="6"] .photo-item.item-2 .photo-main {
-  background-image: url("images/nuser-6-photo-3.jpg");
+  background-image: url("static/nuser-6-photo-3.jpg");
 }
 [data-step="6"] .photo-item.item-3:after {
-  background-image: url("images/nuser-6-photo-4.jpg");
+  background-image: url("static/nuser-6-photo-4.jpg");
 }
 [data-step="7"] .photo-item.item-1:after,
 [data-step="7"] .photo-item.item-1 .photo-main {
-  background-image: url("images/user-7-photo-2.jpg");
+  background-image: url("static/user-7-photo-2.jpg");
 }
 [data-step="7"] .photo-item.item-2:after,
 [data-step="7"] .photo-item.item-2 .photo-main {
-  background-image: url("images/user-7-photo-3.jpg");
+  background-image: url("static/user-7-photo-3.jpg");
 }
 [data-step="7"] .photo-item.item-3:after {
-  background-image: url("images/user-7-photo-4.jpg");
+  background-image: url("static/user-7-photo-4.jpg");
 }
 [data-step="8"] .photo-item.item-1:after,
 [data-step="8"] .photo-item.item-1 .photo-main {
-  background-image: url("images/user-8-photo-2.jpg");
+  background-image: url("static/user-8-photo-2.jpg");
 }
 [data-step="8"] .photo-item.item-2:after,
 [data-step="8"] .photo-item.item-2 .photo-main {
-  background-image: url("images/user-8-photo-3.jpg");
+  background-image: url("static/user-8-photo-3.jpg");
 }
 [data-step="8"] .photo-item.item-3:after {
-  background-image: url("images/user-8-photo-4.jpg");
+  background-image: url("static/user-8-photo-4.jpg");
 }
 .photo-wrapper {
   display: flex;
@@ -538,28 +538,28 @@ a {
   cursor: pointer;
 }
 [data-step="1"] .chat-photo {
-  background-image: url("images/nuser-photo-1.jpg");
+  background-image: url("static/nuser-photo-1.jpg");
 }
 [data-step="2"] .chat-photo {
-  background-image: url("images/nuser-2-photo-1.jpg");
+  background-image: url("static/nuser-2-photo-1.jpg");
 }
 [data-step="3"] .chat-photo {
-  background-image: url("images/nuser-3-photo-1.jpg");
+  background-image: url("static/nuser-3-photo-1.jpg");
 }
 [data-step="4"] .chat-photo {
-  background-image: url("images/nuser-4-photo-1.jpg");
+  background-image: url("static/nuser-4-photo-1.jpg");
 }
 [data-step="5"] .chat-photo {
-  background-image: url("images/user-5-photo-1.jpg");
+  background-image: url("static/user-5-photo-1.jpg");
 }
 [data-step="6"] .chat-photo {
-  background-image: url("images/nuser-6-photo-1.jpg");
+  background-image: url("static/nuser-6-photo-1.jpg");
 }
 [data-step="7"] .chat-photo {
-  background-image: url("images/user-7-photo-1.jpg");
+  background-image: url("static/user-7-photo-1.jpg");
 }
 [data-step="8"] .chat-photo {
-  background-image: url("images/user-8-photo-1.jpg");
+  background-image: url("static/user-8-photo-1.jpg");
 }
 .chat-message-block {
   display: flex;
@@ -725,28 +725,28 @@ a {
   border-radius: 5px;
 }
 [data-step="1"] .chat-message-content-wrapper:before {
-  background-image: url("images/nuser-photo-1.jpg");
+  background-image: url("static/nuser-photo-1.jpg");
 }
 [data-step="2"] .chat-message-content-wrapper:before {
-  background-image: url("images/nuser-2-photo-1.jpg");
+  background-image: url("static/nuser-2-photo-1.jpg");
 }
 [data-step="3"] .chat-message-content-wrapper:before {
-  background-image: url("images/nuser-3-photo-1.jpg");
+  background-image: url("static/nuser-3-photo-1.jpg");
 }
 [data-step="4"] .chat-message-content-wrapper:before {
-  background-image: url("images/nuser-4-photo-1.jpg");
+  background-image: url("static/nuser-4-photo-1.jpg");
 }
 [data-step="5"] .chat-message-content-wrapper:before {
-  background-image: url("images/user-5-photo-1.jpg");
+  background-image: url("static/user-5-photo-1.jpg");
 }
 [data-step="6"] .chat-message-content-wrapper:before {
-  background-image: url("images/nuser-6-photo-1.jpg");
+  background-image: url("static/nuser-6-photo-1.jpg");
 }
 [data-step="7"] .chat-message-content-wrapper:before {
-  background-image: url("images/user-7-photo-1.jpg");
+  background-image: url("static/user-7-photo-1.jpg");
 }
 [data-step="8"] .chat-message-content-wrapper:before {
-  background-image: url("images/user-8-photo-1.jpg");
+  background-image: url("static/user-8-photo-1.jpg");
 }
 .chat-title {
   margin-bottom: .5rem;
@@ -777,28 +777,28 @@ a {
   -webkit-filter: blur(4px);
 }
 [data-step="1"] .chat-message.member-message.chat-message-photo:before {
-  background-image: url("images/nuser-photo-4.jpg");
+  background-image: url("static/nuser-photo-4.jpg");
 }
 [data-step="2"] .chat-message.member-message.chat-message-photo:before {
-  background-image: url("images/nuser-2-photo-4.jpg");
+  background-image: url("static/nuser-2-photo-4.jpg");
 }
 [data-step="3"] .chat-message.member-message.chat-message-photo:before {
-  background-image: url("images/nuser-3-photo-4.jpg");
+  background-image: url("static/nuser-3-photo-4.jpg");
 }
 [data-step="4"] .chat-message.member-message.chat-message-photo:before {
-  background-image: url("images/nuser-4-photo-4.jpg");
+  background-image: url("static/nuser-4-photo-4.jpg");
 }
 [data-step="5"] .chat-message.member-message.chat-message-photo:before {
-  background-image: url("images/user-5-photo-4.jpg");
+  background-image: url("static/user-5-photo-4.jpg");
 }
 [data-step="6"] .chat-message.member-message.chat-message-photo:before {
-  background-image: url("images/nuser-6-photo-4.jpg");
+  background-image: url("static/nuser-6-photo-4.jpg");
 }
 [data-step="7"] .chat-message.member-message.chat-message-photo:before {
-  background-image: url("images/user-7-photo-4.jpg");
+  background-image: url("static/user-7-photo-4.jpg");
 }
 [data-step="8"] .chat-message.member-message.chat-message-photo:before {
-  background-image: url("images/user-8-photo-4.jpg");
+  background-image: url("static/user-8-photo-4.jpg");
 }
 .chat-message.member-message.chat-message-photo:after {
   content: "";
@@ -890,28 +890,28 @@ a {
   background-size: cover;
 }
 [data-step="1"] .popup-content-1 .popup-photo {
-  background-image: url("images/nuser-photo-1.jpg");
+  background-image: url("static/nuser-photo-1.jpg");
 }
 [data-step="2"] .popup-content-1 .popup-photo {
-  background-image: url("images/nuser-2-photo-1.jpg");
+  background-image: url("static/nuser-2-photo-1.jpg");
 }
 [data-step="3"] .popup-content-1 .popup-photo {
-  background-image: url("images/nuser-3-photo-1.jpg");
+  background-image: url("static/nuser-3-photo-1.jpg");
 }
 [data-step="4"] .popup-content-1 .popup-photo {
-  background-image: url("images/nuser-4-photo-1.jpg");
+  background-image: url("static/nuser-4-photo-1.jpg");
 }
 [data-step="5"] .popup-content-1 .popup-photo {
-  background-image: url("images/user-5-photo-1.jpg");
+  background-image: url("static/user-5-photo-1.jpg");
 }
 [data-step="6"] .popup-content-1 .popup-photo {
-  background-image: url("images/nuser-6-photo-1.jpg");
+  background-image: url("static/nuser-6-photo-1.jpg");
 }
 [data-step="7"] .popup-content-1 .popup-photo {
-  background-image: url("images/user-7-photo-1.jpg");
+  background-image: url("static/user-7-photo-1.jpg");
 }
 [data-step="8"] .popup-content-1 .popup-photo {
-  background-image: url("images/user-8-photo-1.jpg");
+  background-image: url("static/user-8-photo-1.jpg");
 }
 .popup-content-1 .popup-header-inner {
   display: flex;
@@ -1026,28 +1026,28 @@ a {
   border-radius: 4px;
 }
 [data-item="1"].preview-item .preview-img {
-  background-image: url("images/nuser-photo-1.jpg");
+  background-image: url("static/nuser-photo-1.jpg");
 }
 [data-item="2"].preview-item .preview-img {
-  background-image: url("images/nuser-2-photo-1.jpg");
+  background-image: url("static/nuser-2-photo-1.jpg");
 }
 [data-item="3"].preview-item .preview-img {
-  background-image: url("images/nuser-3-photo-1.jpg");
+  background-image: url("static/nuser-3-photo-1.jpg");
 }
 [data-item="4"].preview-item .preview-img {
-  background-image: url("images/nuser-4-photo-1.jpg");
+  background-image: url("static/nuser-4-photo-1.jpg");
 }
 [data-item="5"].preview-item .preview-img {
-  background-image: url("images/user-5-photo-1.jpg");
+  background-image: url("static/user-5-photo-1.jpg");
 }
 [data-item="6"].preview-item .preview-img {
-  background-image: url("images/nuser-6-photo-1.jpg");
+  background-image: url("static/nuser-6-photo-1.jpg");
 }
 [data-item="7"].preview-item .preview-img {
-  background-image: url("images/user-7-photo-1.jpg");
+  background-image: url("static/user-7-photo-1.jpg");
 }
 [data-item="8"].preview-item .preview-img {
-  background-image: url("images/user-8-photo-1.jpg");
+  background-image: url("static/user-8-photo-1.jpg");
 }
 .impression-popup{
   position: fixed;
@@ -1071,7 +1071,7 @@ a {
   display: block;
   width: 40px;
   height: 25px;
-  background: url(images/arrow.svg) center center no-repeat;
+  background: url(static/arrow.svg) center center no-repeat;
   background-size: contain;
   cursor: pointer;
 }
