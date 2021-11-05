@@ -1,0 +1,1130 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*main*/
+a {
+  text-decoration: none;
+  cursor: pointer !important;
+}
+ul li {
+  list-style: none;
+}
+html {
+  font-size: 62.5%;
+  -webkit-text-size-adjust: 100%;
+}
+img {
+  border: none;
+  vertical-align: middle;
+  width: 100%;
+}
+body {
+  background: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  color: #fff;
+  min-width: 320px;
+}
+html,
+body {
+  height: 100%;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+/* main
+-------------------- */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%
+}
+/* header section
+-------------------- */
+.header-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #1e1e1e;
+  padding: 2rem;
+}
+.header-section.is-closed {
+  display: none;
+}
+.header-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+.logo {
+  max-height: 5rem;
+  cursor: pointer;
+  width: 100%;
+  display: block;
+}
+.premium-btn {
+  margin: auto 1rem;
+  padding: 1.4rem 1.5rem;
+  background-color: #fbf300;
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* menu section
+-------------------- */
+.menu-block {
+  display: flex;
+  justify-content: center;
+  padding: 1.3rem 0;
+  background-color: #000;
+  text-align: center;
+}
+.menu-item {
+  cursor: pointer;
+  padding: 0 1.5rem;
+  font-size: 1.6rem;
+}
+.menu-item+.menu-item {
+  border-left: 1px solid #fff;
+}
+/* step block
+-------------------- */
+.step-block {
+  display: flex;
+  flex: 1;
+}
+.step-block[data-current-step="1"] [data-step="1"] {
+  display: flex;
+}
+.step-block[data-current-step="2"] [data-step="2"] {
+  display: flex;
+}
+.step-block[data-current-step="3"] [data-step="3"] {
+  display: flex;
+}
+.step-block[data-current-step="4"] [data-step="4"] {
+  display: flex;
+}
+.step-block[data-current-step="5"] [data-step="5"] {
+  display: flex;
+}
+.step-block[data-current-step="6"] [data-step="6"] {
+  display: flex;
+}
+.step-block[data-current-step="7"] [data-step="7"] {
+  display: flex;
+}
+.step-block[data-current-step="8"] [data-step="8"] {
+  display: flex;
+}
+.step-item {
+  display: none;
+  flex: 1;
+}
+/* member block
+-------------------- */
+.member-block {
+  display: none;
+  padding: 1rem;
+}
+.member-block.is-active {
+  display: block;
+  max-width: 756px;
+  margin: 0 auto;
+}
+.user-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+}
+.user-photo {
+  position: relative;
+  height: 40vw;
+  width: 40vw;
+  max-height: 14rem;
+  max-width: 14rem;
+  margin-right: 1.6rem;
+  background: no-repeat center top;
+  background-size: cover;
+}
+[data-step="1"] .user-photo,
+[data-step="1"] .user-photo .photo-main {
+  background-image: url("images/nuser-photo-1.jpg");
+}
+[data-step="2"] .user-photo,
+[data-step="2"] .user-photo .photo-main {
+  background-image: url("images/nuser-2-photo-1.jpg");
+}
+[data-step="3"] .user-photo,
+[data-step="3"] .user-photo .photo-main {
+  background-image: url("images/nuser-3-photo-1.jpg");
+}
+[data-step="4"] .user-photo,
+[data-step="4"] .user-photo .photo-main {
+  background-image: url("images/nuser-4-photo-1.jpg");
+}
+[data-step="5"] .user-photo,
+[data-step="5"] .user-photo .photo-main {
+  background-image: url("images/user-5-photo-1.jpg");
+}
+[data-step="6"] .user-photo,
+[data-step="6"] .user-photo .photo-main {
+  background-image: url("images/nuser-6-photo-1.jpg");
+}
+[data-step="7"] .user-photo,
+[data-step="7"] .user-photo .photo-main {
+  background-image: url("images/user-7-photo-1.jpg");
+}
+[data-step="8"] .user-photo,
+[data-step="8"] .user-photo .photo-main {
+  background-image: url("images/user-8-photo-1.jpg");
+}
+.user-content {
+  padding: 1rem 1rem 1rem 0;
+}
+.user-name {
+  margin-bottom: .4rem;
+  font-size: 1.8rem;
+}
+.user-description {
+  margin-bottom: .2rem;
+  font-size: 1.4rem;
+}
+.user-description span {
+  font-weight: 700;
+}
+.user-location {
+  display: inline-block;
+  position: relative;
+  margin-left: .5rem;
+  padding-left: 1.2rem;
+  color: #fbf300;
+  border-bottom: 1px dotted #fbf300;
+  cursor: pointer;
+}
+.user-location:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: .2rem;
+  width: .2rem;
+  top: .3rem;
+  left: 0;
+  border: .3rem solid #fbf300;
+  border-radius: 50%;
+}
+.user-location:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: .8rem;
+  left: 0;
+  border: .4rem solid transparent;
+  border-top-color: #fbf300;
+  border-top-width: .6rem;
+}
+.description-block {
+  margin-top: 1rem;
+}
+.description-title {
+  font-size: 1.8rem;
+}
+.description-content {
+  padding: 0 .5rem;
+  font-size: 1.4rem;
+}
+.photo-block {
+  margin-top: 1rem;
+}
+.photo-title {
+  font-size: 1.8rem;
+}
+.photo-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.photo-item {
+  position: relative;
+  width: 30%;
+  border: 2px solid #1e1e1e;
+  border-radius: 3px;
+}
+.photo-item:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+.photo-item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: no-repeat center top;
+  background-size: cover;
+}
+.photo-item.photo-blured:after {
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+[data-step="1"] .photo-item.item-1:after,
+[data-step="1"] .photo-item.item-1 .photo-main {
+  background-image: url("images/nuser-photo-2.jpg");
+}
+[data-step="1"] .photo-item.item-2:after,
+[data-step="1"] .photo-item.item-2 .photo-main {
+  background-image: url("images/nuser-photo-3.jpg");
+}
+[data-step="1"] .photo-item.item-3:after {
+  background-image: url("images/nuser-photo-4.jpg");
+}
+[data-step="2"] .photo-item.item-1:after,
+[data-step="2"] .photo-item.item-1 .photo-main {
+  background-image: url("images/nuser-2-photo-2.jpg");
+}
+[data-step="2"] .photo-item.item-2:after,
+[data-step="2"] .photo-item.item-2 .photo-main {
+  background-image: url("images/nuser-2-photo-3.jpg");
+}
+[data-step="2"] .photo-item.item-3:after {
+  background-image: url("images/nuser-2-photo-4.jpg");
+}
+[data-step="3"] .photo-item.item-1:after,
+[data-step="3"] .photo-item.item-1 .photo-main {
+  background-image: url("images/nuser-3-photo-2.jpg");
+}
+[data-step="3"] .photo-item.item-2:after,
+[data-step="3"] .photo-item.item-2 .photo-main {
+  background-image: url("images/nuser-3-photo-3.jpg");
+}
+[data-step="3"] .photo-item.item-3:after {
+  background-image: url("images/user-3-photo-4.jpg");
+}
+[data-step="4"] .photo-item.item-1:after,
+[data-step="4"] .photo-item.item-1 .photo-main {
+  background-image: url("images/nuser-4-photo-2.jpg");
+}
+[data-step="4"] .photo-item.item-2:after,
+[data-step="4"] .photo-item.item-2 .photo-main {
+  background-image: url("images/nuser-4-photo-3.jpg");
+}
+[data-step="4"] .photo-item.item-3:after {
+  background-image: url("images/nuser-4-photo-4.jpg");
+}
+[data-step="5"] .photo-item.item-1:after,
+[data-step="5"] .photo-item.item-1 .photo-main {
+  background-image: url("images/user-5-photo-2.jpg");
+}
+[data-step="5"] .photo-item.item-2:after,
+[data-step="5"] .photo-item.item-2 .photo-main {
+  background-image: url("images/user-5-photo-3.jpg");
+}
+[data-step="5"] .photo-item.item-3:after {
+  background-image: url("images/user-5-photo-4.jpg");
+}
+[data-step="6"] .photo-item.item-1:after,
+[data-step="6"] .photo-item.item-1 .photo-main {
+  background-image: url("images/nuser-6-photo-2.jpg");
+}
+[data-step="6"] .photo-item.item-2:after,
+[data-step="6"] .photo-item.item-2 .photo-main {
+  background-image: url("images/nuser-6-photo-3.jpg");
+}
+[data-step="6"] .photo-item.item-3:after {
+  background-image: url("images/nuser-6-photo-4.jpg");
+}
+[data-step="7"] .photo-item.item-1:after,
+[data-step="7"] .photo-item.item-1 .photo-main {
+  background-image: url("images/user-7-photo-2.jpg");
+}
+[data-step="7"] .photo-item.item-2:after,
+[data-step="7"] .photo-item.item-2 .photo-main {
+  background-image: url("images/user-7-photo-3.jpg");
+}
+[data-step="7"] .photo-item.item-3:after {
+  background-image: url("images/user-7-photo-4.jpg");
+}
+[data-step="8"] .photo-item.item-1:after,
+[data-step="8"] .photo-item.item-1 .photo-main {
+  background-image: url("images/user-8-photo-2.jpg");
+}
+[data-step="8"] .photo-item.item-2:after,
+[data-step="8"] .photo-item.item-2 .photo-main {
+  background-image: url("images/user-8-photo-3.jpg");
+}
+[data-step="8"] .photo-item.item-3:after {
+  background-image: url("images/user-8-photo-4.jpg");
+}
+.photo-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 4rem;
+  background-color: rgba(0, 0, 0, .7);
+  opacity: 0;
+  z-index: 5;
+}
+.photo-wrapper iframe {
+  display: none;
+}
+.photo-wrapper.is-active {
+  position: fixed;
+  opacity: 1;
+  z-index: 8;
+}
+.photo-wrapper.is-active iframe {
+  display: block;
+}
+.user-photo .photo-wrapper {
+  cursor: pointer;
+}
+.photo-main {
+  max-height: 600px;
+  max-width: 600px;
+  background: no-repeat center top;
+  background-size: cover;
+  margin-top: 2rem;
+}
+.photo-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 1.4rem;
+  text-align: center;
+  background-color: rgba(236, 0, 140, 0.18);
+  z-index: 1;
+}
+.photo-text span {
+  width: 100%;
+  margin: auto;
+  -ms-flex-item-align: center;
+  text-align: center;
+}
+.btns-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 2rem;
+}
+.btn {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  height: 4.2rem;
+  width: 48%;
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-radius: 3px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, .25);
+  cursor: pointer;
+}
+.btn.btn-no {
+  background-color: #ec008c;
+  color: #fff;
+}
+.btn.btn-yes {
+  background-color: #fff;
+  color: #000;
+}
+.btn span {
+  margin: auto;
+  -ms-flex-item-align: center;
+  text-align: center;
+}
+/* chat block
+-------------------- */
+.chat-block {
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  flex: 1;
+}
+.chat-block.is-active {
+  display: flex;
+}
+.chat-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  height: 7.6rem;
+  background-color: #1e1e1e;
+  padding: 2rem;
+}
+.chat-content {
+  margin: auto;
+  -ms-flex-item-align: center;
+}
+.chat-close-btn {
+  position: relative;
+  height: 4rem;
+  width: 4rem;
+  cursor: pointer;
+}
+.chat-close-btn:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 1.4rem;
+  width: 1.4rem;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: .6rem;
+  margin: auto;
+  border: 0 solid #fff;
+  border-bottom-width: .4rem;
+  border-left-width: .4rem;
+  transform: rotate(45deg);
+}
+.chat-name {
+  font-size: 1.4rem;
+  text-align: center;
+  cursor: pointer;
+}
+.chat-activity {
+  font-size: 1.2rem;
+  text-align: center;
+  opacity: .5;
+}
+.chat-activity.online {
+  color: #14ea14;
+}
+.chat-photo {
+  height: 4rem;
+  width: 4rem;
+  background: no-repeat center top;
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}
+[data-step="1"] .chat-photo {
+  background-image: url("images/nuser-photo-1.jpg");
+}
+[data-step="2"] .chat-photo {
+  background-image: url("images/nuser-2-photo-1.jpg");
+}
+[data-step="3"] .chat-photo {
+  background-image: url("images/nuser-3-photo-1.jpg");
+}
+[data-step="4"] .chat-photo {
+  background-image: url("images/nuser-4-photo-1.jpg");
+}
+[data-step="5"] .chat-photo {
+  background-image: url("images/user-5-photo-1.jpg");
+}
+[data-step="6"] .chat-photo {
+  background-image: url("images/nuser-6-photo-1.jpg");
+}
+[data-step="7"] .chat-photo {
+  background-image: url("images/user-7-photo-1.jpg");
+}
+[data-step="8"] .chat-photo {
+  background-image: url("images/user-8-photo-1.jpg");
+}
+.chat-message-block {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - (7.6rem + 5.2rem));
+  padding: 1rem;
+  overflow-y: auto;
+}
+.chat-message-title {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  text-align: center;
+  opacity: .7;
+}
+.chat-message-wrapper {
+  position: relative;
+  padding-bottom: 5rem;
+}
+.chat-message-typing {
+  position: absolute;
+  height: 3.7rem;
+  width: 7rem;
+  bottom: 1.3rem;
+  left: 0;
+  background-color: #1e1e1e;
+  border-radius: .4rem 1.4rem 1.4rem;
+  opacity: 0;
+}
+.chat-message-typing span {
+  display: block;
+  position: absolute;
+  height: .8rem;
+  width: .8rem;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background-color: transparent;
+  border-radius: 50%;
+  animation: typingAnimation 1.2s infinite linear .2s;
+}
+.is-typping .chat-message-typing {
+  opacity: 1;
+}
+.chat-message-typing span:before,
+.chat-message-typing span:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background-color: transparent;
+  border-radius: 50%;
+}
+.chat-message-typing span:before {
+  transform: translateX(-1.6rem);
+  animation: typingAnimation 1.2s infinite linear;
+}
+.chat-message-typing span:after {
+  transform: translateX(1.6rem);
+  animation: typingAnimation 1.2s infinite linear .4s;
+}
+.chat-invite {
+  cursor: pointer;
+}
+.chat-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #1e1e1e;
+  padding: .5rem 1rem;
+}
+.chat-add-btn {
+  height: 4.2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+.chat-input-block {
+  display: flex;
+  flex: 1;
+  margin: 0 1rem;
+}
+.chat-input-field {
+  height: 4.2rem;
+  width: 100%;
+  padding: 0 2.8rem;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 2.1rem;
+  outline: none;
+}
+.chat-send-btn {
+  height: 4.2rem;
+  width: 4.2rem;
+  cursor: pointer;
+}
+.chat-message {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+}
+.chat-message.member-message {
+  position: relative;
+  justify-content: flex-start;
+}
+.chat-message.member-message.chat-message-photo .submit-btn,
+.chat-message.member-message.chat-invite .submit-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+}
+.chat-message.member-message:not(.chat-message-photo) .chat-message-inner {
+  background-color: #1e1e1e;
+  border-radius: .4rem 1.4rem 1.4rem;
+}
+.chat-message.user-message {
+  justify-content: flex-end;
+}
+.chat-message.user-message .chat-message-inner {
+  background-color: #2d3053;
+  border-radius: 1.4rem .4rem 1.4rem 1.4rem;
+}
+.chat-message-inner {
+  position: relative;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: 1.4rem;
+  z-index: 1;
+}
+.chat-message-status {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  text-align: center;
+  opacity: .7;
+}
+.chat-message-content-wrapper {
+  position: relative;
+  border-left: 2px solid rgba(255, 255, 255, .35);
+  padding: 0 5rem 0 .7rem;
+}
+.chat-message-content-wrapper:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 4rem;
+  width: 4rem;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background: no-repeat center top;
+  background-size: cover;
+  border: 2px solid #1e1e1e;
+  border-radius: 5px;
+}
+[data-step="1"] .chat-message-content-wrapper:before {
+  background-image: url("images/nuser-photo-1.jpg");
+}
+[data-step="2"] .chat-message-content-wrapper:before {
+  background-image: url("images/nuser-2-photo-1.jpg");
+}
+[data-step="3"] .chat-message-content-wrapper:before {
+  background-image: url("images/nuser-3-photo-1.jpg");
+}
+[data-step="4"] .chat-message-content-wrapper:before {
+  background-image: url("images/nuser-4-photo-1.jpg");
+}
+[data-step="5"] .chat-message-content-wrapper:before {
+  background-image: url("images/user-5-photo-1.jpg");
+}
+[data-step="6"] .chat-message-content-wrapper:before {
+  background-image: url("images/nuser-6-photo-1.jpg");
+}
+[data-step="7"] .chat-message-content-wrapper:before {
+  background-image: url("images/user-7-photo-1.jpg");
+}
+[data-step="8"] .chat-message-content-wrapper:before {
+  background-image: url("images/user-8-photo-1.jpg");
+}
+.chat-title {
+  margin-bottom: .5rem;
+  font-weight: 700;
+}
+.chat-message.member-message.chat-message-photo {
+  position: relative;
+  height: 30vw;
+  width: 30vw;
+  max-height: 12.6rem;
+  max-width: 12.6rem;
+  margin-bottom: 1rem;
+  border: 2px solid #1e1e1e;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.chat-message.member-message.chat-message-photo:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: no-repeat center top;
+  background-size: cover;
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+[data-step="1"] .chat-message.member-message.chat-message-photo:before {
+  background-image: url("images/nuser-photo-4.jpg");
+}
+[data-step="2"] .chat-message.member-message.chat-message-photo:before {
+  background-image: url("images/nuser-2-photo-4.jpg");
+}
+[data-step="3"] .chat-message.member-message.chat-message-photo:before {
+  background-image: url("images/nuser-3-photo-4.jpg");
+}
+[data-step="4"] .chat-message.member-message.chat-message-photo:before {
+  background-image: url("images/nuser-4-photo-4.jpg");
+}
+[data-step="5"] .chat-message.member-message.chat-message-photo:before {
+  background-image: url("images/user-5-photo-4.jpg");
+}
+[data-step="6"] .chat-message.member-message.chat-message-photo:before {
+  background-image: url("images/nuser-6-photo-4.jpg");
+}
+[data-step="7"] .chat-message.member-message.chat-message-photo:before {
+  background-image: url("images/user-7-photo-4.jpg");
+}
+[data-step="8"] .chat-message.member-message.chat-message-photo:before {
+  background-image: url("images/user-8-photo-4.jpg");
+}
+.chat-message.member-message.chat-message-photo:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(236, 0, 140, 0.18);
+}
+.chat-message-photo .chat-text {
+  text-align: center;
+  font-weight: 700;
+}
+/* popup block
+-------------------- */
+.popup-wrapper {
+  display: none;
+  flex-direction: column;
+  align-content: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 20;
+}
+.popup-wrapper[data-popup="1"],
+.popup-wrapper[data-popup="2"] {
+  display: flex;
+}
+.popup-block {
+  position: relative;
+  width: calc(100% - 20px);
+  max-width: 400px;
+  margin: auto;
+  padding: 2.8rem 1.4rem;
+  background-color: #262626;
+  border-radius: .7rem;
+  z-index: 1;
+}
+.popup-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .5);
+}
+[data-popup="1"] .popup-content-1 {
+  display: block;
+}
+[data-popup="2"] .popup-content-2 {
+  display: block;
+  cursor: pointer;
+  width: 300px;
+  height: 250px;
+  margin: 0 auto;
+}
+.popup-content-1,
+.popup-content-2 {
+  display: none;
+  position: relative;
+}
+.icon-close {
+  color: #fff;
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  bottom: 100%;
+  font-size: 30px;
+  padding: 0 5px;
+  cursor: pointer;
+}
+.popup-content-1 .popup-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 1rem;
+}
+.popup-content-1 .popup-photo {
+  height: 7rem;
+  width: 7rem;
+  margin-right: 1rem;
+  border-radius: 50%;
+  background: no-repeat center top;
+  background-size: cover;
+}
+[data-step="1"] .popup-content-1 .popup-photo {
+  background-image: url("images/nuser-photo-1.jpg");
+}
+[data-step="2"] .popup-content-1 .popup-photo {
+  background-image: url("images/nuser-2-photo-1.jpg");
+}
+[data-step="3"] .popup-content-1 .popup-photo {
+  background-image: url("images/nuser-3-photo-1.jpg");
+}
+[data-step="4"] .popup-content-1 .popup-photo {
+  background-image: url("images/nuser-4-photo-1.jpg");
+}
+[data-step="5"] .popup-content-1 .popup-photo {
+  background-image: url("images/user-5-photo-1.jpg");
+}
+[data-step="6"] .popup-content-1 .popup-photo {
+  background-image: url("images/nuser-6-photo-1.jpg");
+}
+[data-step="7"] .popup-content-1 .popup-photo {
+  background-image: url("images/user-7-photo-1.jpg");
+}
+[data-step="8"] .popup-content-1 .popup-photo {
+  background-image: url("images/user-8-photo-1.jpg");
+}
+.popup-content-1 .popup-header-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  flex: 1;
+}
+.popup-content-1 .popup-name {
+  font-size: 1.4rem;
+}
+.popup-content-1 .popup-status {
+  font-size: 1.4rem;
+}
+.popup-content-1 .popup-status span {
+  color: #ebb100;
+  text-transform: uppercase;
+}
+.popup-content-1 .popup-text {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.popup-btn:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+}
+.popup-content-1 .popup-btn {
+  position: relative;
+  width: 100%;
+}
+[data-popup="2"] .popup-block {
+  padding: 0;
+}
+/* hidden field */
+.hidden-info-block {
+  display: none;
+}
+.header-block,
+.slider-popup {
+  width: 300px;
+  height: 100px;
+  margin: 1rem auto;
+  cursor: pointer;
+}
+.slider-popup {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 150%);
+  transition: all .3s linear;
+  z-index: 100;
+}
+.slider-popup.active {
+  transform: translate(-50%, 0);
+}
+.footer-block {
+  width: 300px;
+  height: 250px;
+  margin: 2rem auto 0;
+  cursor: pointer;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1;
+}
+.overlay.is-hidden {
+  display: none;
+}
+.preview-block {
+  text-align: center;
+  margin: 2rem auto;
+  width: 100%;
+  max-width: 800px;
+}
+.preview-banner {
+  display: block;
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+}
+.preview-item {
+  display: inline-flex;
+  flex-flow: column nowrap;
+  width: 45%;
+  height: 35rem;
+  margin: 1rem;
+  padding: 5px;
+  border-radius: 4px;
+  background: #1e1e1e;
+  cursor: pointer;
+}
+.preview-name {
+  font-size: 1.8rem;
+  color: #fff;
+  padding: 1rem 0 2rem;
+}
+.preview-img {
+  flex: 1;
+  background: center top no-repeat;
+  background-size: cover;
+  border-radius: 4px;
+}
+[data-item="1"].preview-item .preview-img {
+  background-image: url("images/nuser-photo-1.jpg");
+}
+[data-item="2"].preview-item .preview-img {
+  background-image: url("images/nuser-2-photo-1.jpg");
+}
+[data-item="3"].preview-item .preview-img {
+  background-image: url("images/nuser-3-photo-1.jpg");
+}
+[data-item="4"].preview-item .preview-img {
+  background-image: url("images/nuser-4-photo-1.jpg");
+}
+[data-item="5"].preview-item .preview-img {
+  background-image: url("images/user-5-photo-1.jpg");
+}
+[data-item="6"].preview-item .preview-img {
+  background-image: url("images/nuser-6-photo-1.jpg");
+}
+[data-item="7"].preview-item .preview-img {
+  background-image: url("images/user-7-photo-1.jpg");
+}
+[data-item="8"].preview-item .preview-img {
+  background-image: url("images/user-8-photo-1.jpg");
+}
+.impression-popup{
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.impression-popup.active{
+  display: flex;
+}
+.impression-content{
+  position: relative;
+}
+.back-button{
+  display: block;
+  width: 40px;
+  height: 25px;
+  background: url(images/arrow.svg) center center no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+@media screen and (orientation: portrait) {
+  .photo-wrapper.is-active .photo-main {
+    height: 80vw;
+    width: 80vw;
+  }
+}
+@media screen and (orientation: landscape) {
+  .photo-wrapper.is-active .photo-main {
+    height: 80vh;
+    width: 80vh;
+  }
+}
+@media (max-width:480px) {
+  .preview-item {
+    width: 40%;
+    height: 26rem;
+  }
+  .preview-name {
+    font-size: 13px;
+  }
+}
+@keyframes typingAnimation {
+  0% {
+    background-color: transparent;
+  }
+  60% {
+    background-color: transparent;
+  }
+  80% {
+    background-color: #fff;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+@keyframes popupBtnAnimation {
+  0% {
+    background-color: #fff;
+    color: green;
+  }
+  50% {
+    background-color: #fff;
+    color: green;
+  }
+  51% {
+    background-color: green;
+    color: #fff;
+  }
+  100% {
+    background-color: green;
+    color: #fff;
+  }
+}
