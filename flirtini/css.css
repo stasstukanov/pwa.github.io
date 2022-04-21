@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,900;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-size: 12px;
+    line-height: 1.45;
+    font-weight: 400;
+    min-width: 280px;
+    color: rgba(255, 255, 255, 0.4);
+    background-color: #181E19;
+}
+
+html,
+body,
+.app-wrapper {
+    height: 100%;
+}
+
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    text-align: center;
+    position: relative;
+    min-height: 480px;
+    max-width: 440px;
+    margin: 0 auto;
+    padding: 8px;
+    overflow: hidden;
+    background: #181E19 url({{resource:main-bg.png}}) no-repeat top center;
+    background-size: 100% auto;
+}
+.app-header {
+    padding: 1px 0 15px 0;
+}
+.app-header .app-logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.app-main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.app-subtitle {
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+
+.app-title {
+    font-weight: 800;
+    font-style: italic;
+    font-size: calc(3vw + 2vh + 2vmin);
+    line-height: 0.9;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.app-content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-video-wrapper {
+    position: relative;
+    width: 62%;
+    min-width: 212px;
+    max-width: 232px;
+    margin: 20px auto 0;
+    padding: 7px;
+}
+
+.app-video-wrapper:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 27px;
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+.app-phone-decor {
+    position: absolute;
+    top:  13px;
+    left: 0;
+    right: 6px;
+    width: 26px;
+    height: 4px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #3E4740;
+}
+.app-phone-decor:before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    right: -12px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+    background: #3E4740;
+}
+.app-video {
+    z-index: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.app-button-wrapper {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 66px 0 41px;
+    background: linear-gradient(360deg, #181E19 64%, rgba(24, 30, 25, 0.72) 76%, rgba(24, 30, 25, 0) 94%);
+}
+.app-button-wrapper:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    right: -66px;
+    bottom: -89px;
+    height: 100%;
+    width: 335px;
+    height: 117px;
+    opacity: 0.2;
+    filter: blur(26px);
+    border-radius: 94px;
+    background: #84D73F;
+}
+.app-link-btn {
+    position: relative;
+    z-index: 2;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    width: 196px;
+    height: 56px;
+    padding: 10px 32px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 35px;
+    background: linear-gradient(112deg, #2AA1A9 5%, #A6D550 98%);
+    transition: var(--transition);
+}
+
+.app-link-btn:before,
+.app-link-btn:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 196px;
+    height: 56px;
+    margin: auto;
+    border: none;
+    outline: none;
+    background: linear-gradient(112deg, #2AA1A9 5%, #A6D550 98%);
+    border-radius: 55px;
+}
+
+.app-link-btn:before {
+    -webkit-animation: btnPulse 2.8s 1s ease-out both infinite;
+    animation: btnPulse 2.8s 1s ease-out both infinite;
+}
+
+.app-link-btn:after {
+    -webkit-animation: btnPulse 2.8s 1.5s ease-out both infinite;
+    animation: btnPulse 2.8s 1.5s ease-out both infinite;
+
+}
+
+.app-link-btn:hover,
+.app-link-btn:active {
+    background-color: var(--primary-hover);
+}
+
+@-webkit-keyframes btnPulse {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+
+    10% {
+        opacity: 0.8;
+        -webkit-transform: scale(1.15, 1.3);
+        transform: scale(1.15, 1.3);
+    }
+
+    30% {
+        opacity: 0.4;
+        -webkit-transform: scale(1.2, 1.4);
+        transform: scale(1.2, 1.4);
+    }
+
+    50% {
+        opacity: 0;
+        -webkit-transform: scale(1.25, 1.5);
+        transform: scale(1.25, 1.5);
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes btnPulse {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+
+    10% {
+        opacity: 0.8;
+        -webkit-transform: scale(1.15, 1.3);
+        transform: scale(1.15, 1.3);
+    }
+
+    30% {
+        opacity: 0.4;
+        -webkit-transform: scale(1.2, 1.4);
+        transform: scale(1.2, 1.4);
+    }
+
+    50% {
+        opacity: 0;
+        -webkit-transform: scale(1.25, 1.5);
+        transform: scale(1.25, 1.5);
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@media screen and (min-width: 440px) {
+    .app-title {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-height: 640px) {
+    .app-wrapper {
+        display: block;
+    }
+}

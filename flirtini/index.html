@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+  <link rel='stylesheet' type='text/css' media='all' href='css.css'>
+<!--Start TikTok Script-->
+<script>
+!function (w, d, t) {
+  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=i+"?sdkid="+e+"&lib="+t;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(o,a)};
+
+  ttq.load('C9GG8JRC77U12DDTJUC0');
+  ttq.page();
+}(window, document, 'ttq');
+</script>
+<!--End TikTok Script-->
+
+<!-- Snap Pixel Code -->
+<script type='text/javascript'>
+(function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
+{a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
+a.queue=[];var s='script';r=t.createElement(s);r.async=!0;
+r.src=n;var u=t.getElementsByTagName(s)[0];
+u.parentNode.insertBefore(r,u);})(window,document,
+'https://sc-static.net/scevent.min.js');
+
+snaptr('init', '05815077-1ad9-468c-a73b-c8725c0f0f34', {
+'user_email': 'stassttn@gmail.com'
+});
+
+snaptr('track', 'PAGE_VIEW');
+
+</script>
+<!-- End Snap Pixel Code -->
+</head>
+
+<body>
+    <div class="app-wrapper">
+        <header class="app-header">
+            <img src="{{resource:logo.svg}}" class="app-logo" width="104" height="64" alt="Flirtini logo">
+        </header>
+        <main class="app-main">
+            <h4 class="app-subtitle">Flirtini dating app</h4>
+            <h2 class="app-title"> Find Perfect Date!</h2>
+            <div class="app-content">
+                <div class="app-video-wrapper">
+                    <div class="app-phone-decor"></div>
+                    <video class="app-video" poster="{{resource:poster-lp-mob.jpg}}" src="{{resource:video-lp-mob.mp4}}" autoplay=""
+                        muted="" loop="" preload="auto" playsinline=""></video>
+                </div>
+            </div>
+        </main>
+        <div class="app-button-wrapper">
+            <a id="ClickButton" href="https://apps.apple.com/us/app/id1534105525" class="app-link-btn">GET THE APP</a>
+        </div>
+    </div>
+<!--Start TikTok/Snapchat click tracking-->
+<script type="text/javascript">
+document.getElementById("ClickButton").onclick = function(){
+    ttq.track('ClickButton'),
+ }
+</script>
+<script type="text/javascript">
+document.getElementById("ClickButton").onclick = function(){
+    snaptr('track','ADD_CART')
+ }
+</script>
+<!--End TikTok/Snapchat click tracking-->
+
+<!--Start Main AppsFlyer Script-->
+<script type="text/javascript">
+/**
+ * AF Smart Script (Build 2.0.1)
+ */
+
+ var AF_URL_SCHEME = "(https:\\/\\/)(([^\\.][^\\.]+).)(.*\\/)(.*)";
+var VALID_AF_URL_PARTS_LENGTH = 5;
+var GOOGLE_CLICK_ID = "gclid";
+var ASSOCIATED_AD_KEYWORD = "keyword";
+var AF_KEYWORDS = "af_keywords";
+var AF_CUSTOM_EXCLUDE_PARAMS_KEYS = ["pid", "c", "af_channel", "af_ad", "af_adset", "deep_link_value", "af_sub1", "af_sub2", "af_sub3", "af_sub4", "af_sub5"];
+var GCLID_EXCLUDE_PARAMS_KEYS = ["pid", "c", "af_channel", "af_ad", "af_adset", "deep_link_value"];
+
+var stringifyParameters = function stringifyParameters() {
+  var parameters = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  var paramStr = Object.keys(parameters).reduce(function (curr, key) {
+    if (!!parameters[key]) {
+      curr += "&".concat(key, "=").concat(parameters[key]);
+    }
+
+    return curr;
+  }, '');
+  console.debug("Generated OneLink parameters", paramStr);
+  return paramStr;
+};
+
+var getParameterValue = function getParameterValue(currentURLParams) {
+  var config = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {
+    keys: [],
+    overrideValues: {},
+    defaultValue: ""
+  };
+
+  //exit when config object structure is not valid
+  if (!(config !== null && config !== void 0 && config.keys && Array.isArray(config.keys) || config !== null && config !== void 0 && config.defaultValue)) {
+    console.error("Parameter config structure is wrong", config);
+    return null;
+  }
+
+  var _config$keys = config.keys,
+      keys = _config$keys === void 0 ? [] : _config$keys,
+      _config$overrideValue = config.overrideValues,
+      overrideValues = _config$overrideValue === void 0 ? {} : _config$overrideValue,
+      _config$defaultValue = config.defaultValue,
+      defaultValue = _config$defaultValue === void 0 ? "" : _config$defaultValue;
+  var firstMatchedKey = keys.find(function (key) {
+    //set the first match of key which contains also a value
+    return !!currentURLParams[key];
+  });
+
+  if (!!firstMatchedKey) {
+    var value = currentURLParams[firstMatchedKey]; //in case the value exists:
+    //check if it exists in the overrideValues object, when exists - replace it
+    //otherwise return default value
+
+    return overrideValues[value] || value || defaultValue;
+  }
+
+  return defaultValue;
+};
+
+var getURLParametersKV = function getURLParametersKV(urlSearch) {
+  var currentURLParams = decodeURIComponent(urlSearch).replace("?", "").split("&").reduce(function (curr, param) {
+    var kv = param.split("=");
+
+    if (!!kv[0] && !!kv[1]) {
+      curr[[kv[0]]] = kv[1];
+    }
+
+    return curr;
+  }, {});
+  console.debug("Generated current parameters object", currentURLParams);
+  return currentURLParams;
+};
+
+var isSkippedURL = function isSkippedURL(_ref) {
+  var url = _ref.url,
+      skipKeys = _ref.skipKeys,
+      errorMsg = _ref.errorMsg;
+
+  // search if this page referred and contains one of the given keys
+  if (!!url) {
+    var lowerURL = decodeURIComponent(url.toLowerCase());
+
+    if (!!lowerURL) {
+      var skipKey = skipKeys.find(function (key) {
+        return lowerURL.includes(key.toLowerCase());
+      });
+      !!skipKey && console.debug(errorMsg, skipKey);
+      return !!skipKey;
+    }
+  }
+
+  return false;
+};
+
+var getGoogleClickIdParameters = function getGoogleClickIdParameters(gciKey, currentURLParams) {
+  var gciParam = currentURLParams[GOOGLE_CLICK_ID];
+  var result = {};
+
+  if (gciParam) {
+    console.debug("This user comes from Google AdWords");
+    result[gciKey] = gciParam;
+    var keywordParam = currentURLParams[ASSOCIATED_AD_KEYWORD];
+
+    if (keywordParam) {
+      console.debug("There is a keyword associated with the ad");
+      result[AF_KEYWORDS] = keywordParam;
+    }
+  } else {
+    console.debug("This user comes from SRN or custom network");
+  }
+
+  return result;
+};
+
+(function () {
+  var generateOneLinkURL = function generateOneLinkURL() {
+    var _ref, _mediaSource$keys;
+
+    var parameters = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {
+      afParameters: {}
+    };
+    var oneLinkURL = parameters.oneLinkURL,
+        _parameters$afParamet = parameters.afParameters;
+    _parameters$afParamet = _parameters$afParamet === void 0 ? {} : _parameters$afParamet;
+    var mediaSource = _parameters$afParamet.mediaSource,
+        campaign = _parameters$afParamet.campaign,
+        channel = _parameters$afParamet.channel,
+        ad = _parameters$afParamet.ad,
+        adSet = _parameters$afParamet.adSet,
+        deepLinkValue = _parameters$afParamet.deepLinkValue,
+        afSub1 = _parameters$afParamet.afSub1,
+        afSub2 = _parameters$afParamet.afSub2,
+        afSub3 = _parameters$afParamet.afSub3,
+        afSub4 = _parameters$afParamet.afSub4,
+        afSub5 = _parameters$afParamet.afSub5,
+        afCustom = _parameters$afParamet.afCustom,
+        googleClickIdKey = _parameters$afParamet.googleClickIdKey,
+        _parameters$referrerS = parameters.referrerSkipList,
+        referrerSkipList = _parameters$referrerS === void 0 ? [] : _parameters$referrerS,
+        _parameters$urlSkipLi = parameters.urlSkipList,
+        urlSkipList = _parameters$urlSkipLi === void 0 ? [] : _parameters$urlSkipLi;
+    var oneLinkURLParts = (_ref = oneLinkURL || "") === null || _ref === void 0 ? void 0 : _ref.toString().match(AF_URL_SCHEME);
+
+    if (!oneLinkURLParts || (oneLinkURLParts === null || oneLinkURLParts === void 0 ? void 0 : oneLinkURLParts.length) < VALID_AF_URL_PARTS_LENGTH) {
+      console.error("oneLinkURL is missing or not in the correct format, can't generate URL", oneLinkURL);
+      return null;
+    }
+
+    if ((mediaSource === null || mediaSource === void 0 ? void 0 : (_mediaSource$keys = mediaSource.keys) === null || _mediaSource$keys === void 0 ? void 0 : _mediaSource$keys.length) === 0 && !(mediaSource !== null && mediaSource !== void 0 && mediaSource.defaultValue)) {
+      console.error("mediaSource is missing (default value was not supplied), can't generate URL", mediaSource);
+      return null;
+    }
+
+    if (isSkippedURL({
+      url: document.referrer,
+      skipKeys: referrerSkipList,
+      errorMsg: "Generate url is skipped. HTTP referrer contains key:"
+    })) {
+      return null;
+    }
+
+    if (isSkippedURL({
+      url: document.URL,
+      skipKeys: urlSkipList,
+      errorMsg: "Generate url is skipped. URL contains string:"
+    })) {
+      return null;
+    } // af_js_web=true and af_ss_ver=[version] will be added to every URL that was generated through this script
+
+
+    var afParams = {
+      af_js_web: true,
+      af_ss_ver: window.AF_SMART_SCRIPT.version
+    };
+    var currentURLParams = getURLParametersKV(window.location.search);
+
+    if (mediaSource) {
+      var pidValue = getParameterValue(currentURLParams, mediaSource);
+
+      if (!pidValue) {
+        console.error("mediaSource was not found in the URL and default value was not supplied, can't generate URL", mediaSource);
+        return null;
+      }
+
+      afParams["pid"] = pidValue;
+    }
+
+    if (campaign) {
+      afParams["c"] = getParameterValue(currentURLParams, campaign);
+    }
+
+    if (channel) {
+      afParams["af_channel"] = getParameterValue(currentURLParams, channel);
+    }
+
+    if (ad) {
+      afParams["af_ad"] = getParameterValue(currentURLParams, ad);
+    }
+
+    if (adSet) {
+      afParams["af_adset"] = getParameterValue(currentURLParams, adSet);
+    }
+
+    if (deepLinkValue) {
+      afParams["deep_link_value"] = getParameterValue(currentURLParams, deepLinkValue);
+    }
+
+    var afSubs = [afSub1, afSub2, afSub3, afSub4, afSub5];
+    afSubs.forEach(function (afSub, index) {
+      if (afSub) {
+        afParams["af_sub".concat(index + 1)] = getParameterValue(currentURLParams, afSub);
+      }
+    });
+
+    if (googleClickIdKey) {
+      if (GCLID_EXCLUDE_PARAMS_KEYS.find(function (k) {
+        return k === googleClickIdKey;
+      })) {
+        console.debug("Google Click Id ParamKey can't override AF Parameters keys", googleClickIdKey);
+      } else {
+        var googleParameters = getGoogleClickIdParameters(googleClickIdKey, currentURLParams);
+        Object.keys(googleParameters).forEach(function (gpk) {
+          afParams[gpk] = googleParameters[gpk];
+        });
+      }
+    }
+
+    if (Array.isArray(afCustom)) {
+      afCustom.forEach(function (customParam) {
+        if (customParam !== null && customParam !== void 0 && customParam.paramKey) {
+          var isOverrideExistingKey = AF_CUSTOM_EXCLUDE_PARAMS_KEYS.find(function (k) {
+            return k === (customParam === null || customParam === void 0 ? void 0 : customParam.paramKey);
+          });
+
+          if ((customParam === null || customParam === void 0 ? void 0 : customParam.paramKey) === googleClickIdKey || isOverrideExistingKey) {
+            console.debug("Custom parameter ParamKey can't override Google-Click-Id or AF Parameters keys", customParam);
+          } else {
+            afParams[[customParam.paramKey]] = getParameterValue(currentURLParams, customParam);
+          }
+        }
+      });
+    }
+
+    var finalParams = stringifyParameters(afParams);
+    var finalURL = oneLinkURL + finalParams.replace("&", "?");
+    console.debug("Generated OneLink URL", finalURL);
+    return {
+      clickURL: finalURL
+    };
+  };
+
+  window.AF_SMART_SCRIPT = {
+    generateOneLinkURL: generateOneLinkURL,
+    version: "2"
+  };
+})();
+
+</script>
+<!--End Main AppsFlyer Script-->   
+
+<!--Start Parameter Script-->
+<script type="text/javascript">
+      
+//Initializing Smart Script arguments
+var oneLinkURL = "https://flirtininet.onelink.me/1EN9/";
+var mediaSource = {keys: ["mediaSource", "mediaSource2"]};
+var campaign = {keys: ["campaign", "campaign2"]};
+var ad = {keys: ["ad", "ad2"]};
+var adSet = {keys: ["adSet", "adSet2"]};
+var afSub1 = {keys: ["fbp"]};
+var afSub2 = {keys: ["fbc"]};
+var afSub3 = {keys: ["afSub3"]};
+var afSub4 = {keys: ["afSub4"]};
+var afSub5 = {keys: ["afSub5"]};
+
+//Function is embedded on the window object in a global parameter called window.AF_SMART_SCRIPT.
+//Onelink URL is generated
+var result = window.AF_SMART_SCRIPT.generateOneLinkURL({
+  oneLinkURL: oneLinkURL,
+  afParameters:{
+    mediaSource: mediaSource,
+    campaign: campaign,
+    ad: ad,
+    adSet: adSet,
+    afSub1: afSub1,
+    afSub2: afSub2,
+    afSub3: afSub3,
+    afSub4: afSub4,
+    afSub5: afSub5,
+  }
+})
+      
+      var result_url = result.clickURL;
+      if (result_url) {
+           document.getElementById('ClickButton').setAttribute('href', result_url);
+      }
+</script>  
+<!--End Parameter Script-->
+
+
+</body>
+
+</html>
