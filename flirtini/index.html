@@ -53,18 +53,13 @@ snaptr('track', 'PAGE_VIEW');
             </div>
         </main>
         <div class="app-button-wrapper">
-            <a id="ClickButton" href="https://apps.apple.com/us/app/id1534105525" class="app-link-btn">GET THE APP</a>
+            <button id="ClickButton" href="https://apps.apple.com/us/app/id1534105525" class="app-link-btn" onClick="snaptr('track','ADD_CART');">GET THE APP</button>
         </div>
     </div>
 <!--Start TikTok/Snapchat click tracking-->
 <script type="text/javascript">
 document.getElementById("ClickButton").onclick = function(){
     ttq.track('ClickButton'),
- }
-</script>
-<script type="text/javascript">
-document.getElementById("ClickButton").onclick = function(){
-    snaptr('track','ADD_CART')
  }
 </script>
 <!--End TikTok/Snapchat click tracking-->
